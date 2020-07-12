@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+      <title>HTML Academy: Каталог магазина «Device»</title>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/main.css" />
+    </head>
+  <body class="catalog-page">
+    <header class="page-header">
+      <a class="page-header__main-logo">
+        <img
+          src="img/logo.svg"
+          alt="Логотип магазина «Device»"
+          width="163"
+          height="35"
+        />
+      </a>
+
+      <div class="page-header__user-menu-wrapper">
+        <div class="page-header__user-menu">
+          <form class="user-menu__search-form">
+            <label for="page-search" class="page-header__search-icon">
+              Поиск по сайту
+            </label>
+            <input
+              class="search-input"
+              type="search"
+              id="page-search"
+              placeholder="Поиск по сайту"
+            />
+            <button type="submit">Найти</button>
+          </form>
+
+          <div class="user-menu__inner-wrapper">
+            <ul class="user-menu__login-form">
+              <li>
+                <a class="user-menu__profile-link" href="#">Валентин Петухов</a>
+                <a class="user-menu__logout-link" href="#">Выйти</a>
+              </li>
+            </ul>
+
+            <a class="user-menu__link-compare" href="#">Сравнить</a>
+
+            <a class="user-menu__link-basket" href="#">Корзина</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-header__main-menu-wrapper">
+        <nav class="page-header__main-navigation">
+          <input
+            class="visually-hidden" type="checkbox" id="catalog-nav-open"
+          />
+          <label class="main-navigation__catalog-label" for="catalog-nav-open">
+            Каталог товаров
+          </label>
+
+          <ul class="main-navigation__catalog-submenu visually-hidden">
+            <li><a href="catalog.html">Виртуальная реальность</a></li>
+            <li><a href="catalog.html">Моноподы для селфи</a></li>
+            <li><a href="catalog.html">Экшн-камеры</a></li>
+            <li><a href="catalog.html">Фитнес-браслеты</a></li>
+            <li><a href="catalog.html">Умные часы</a></li>
+            <li><br></li>
+            <li><a href="catalog.html">Квадрокоптеры</a></li>
+          </ul>
+          <div class="main-navigation__inner-wrapper">
+            <a href="#">Доставка</a>
+            <a href="#">Гарантия</a>
+            <a href="#">Контакты</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <h1>Моноподы для селфи</h1>
+
+        <ul class="catalog-page__site-breadcrumbs">
+          <li class="site-breadcrumbs__item"><a href="index.html">Главная</a></li>
+          <li class="site-breadcrumbs__item"><a href="catalog.html">Каталог товаров</a></li>
+          <li class="site-breadcrumbs__item"><a>Моноподы для селфи</a></li>
+        </ul>
+
+        
+    </main>
+  </body>
+</html>
